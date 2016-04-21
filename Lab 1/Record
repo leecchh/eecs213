@@ -1,0 +1,32 @@
+login as: chl433
+chl433@gordon.eecs.northwestern.edu's password:
+Last login: Sun Oct 18 14:56:14 2015 from 10.105.163.128
+####
+#### Welcome to the Wilkinson and Tlab computers.
+#### These machines are for AUTHORIZED USERS ONLY.
+####
+#### Look in /home/software/ for additional software.
+####
+#### Report any problems to <root@eecs.northwestern.edu>
+#### Also see http://www.eecs.northwestern.edu/resources/tech-support.html
+####
+
+[chl433@gordon ~]$ ls
+EECS213  public_html
+[chl433@gordon ~]$ cd EECS213
+[chl433@gordon ~/EECS213]$ ls
+#bits.c#  datalab-handout  datalab-handout.tar
+[chl433@gordon ~/EECS213]$ cd datalab-handout
+[chl433@gordon datalab-handout]$ ls
+bits.c  btest.c  decl.c  Driverhdrs.pm  driver.pl  ishow.c   README
+bits.h  btest.h  dlc     Driverlib.pm   fshow.c    Makefile  tests.c
+[chl433@gordon datalab-handout]$ emacs bits.c
+[chl433@gordon datalab-handout]$ make
+gcc -O -Wall -m32 -lm -o btest bits.c btest.c decl.c tests.c
+gcc -O -Wall -m32 -o fshow fshow.c
+gcc -O -Wall -m32 -o ishow ishow.c
+[chl433@gordon datalab-handout]$ ./btest -f bitAnd
+Score   Rating  Errors  Function
+ 1      1       0       bitAnd
+Total points: 1/1
+[chl433@gordon datalab-handout]$

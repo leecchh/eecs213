@@ -1,0 +1,4 @@
+When I get angry, Mr. Bigglesworth gets upset.
+0 1 1 2 3 5
+2 m 509
+108 2

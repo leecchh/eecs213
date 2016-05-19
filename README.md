@@ -1,2 +1,2 @@
-# eecs213
-Projects for Unix Programming
+# EECS213
+Projects for Computer Systems Programming
